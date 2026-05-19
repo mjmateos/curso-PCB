@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9e36ef9f-24e5-4d03-9150-bf971d190195")
+	(paper "A4")
+	(title_block
+		(title "MCU")
+		(comment 1 "Mª Jesús Mateos")
+	)
+	(lib_symbols)
+)

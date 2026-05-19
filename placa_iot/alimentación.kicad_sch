@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c0738e7d-3cc8-4809-bdab-5b02ebc60cee")
+	(paper "A4")
+	(title_block
+		(title "ALIMENTACION")
+		(comment 1 "Mª Jesús Mateos")
+	)
+	(lib_symbols)
+)

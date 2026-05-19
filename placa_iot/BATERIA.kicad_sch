@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "361b49de-7955-4f24-a212-c69aa4b76181")
+	(paper "A4")
+	(title_block
+		(title "BATERIA")
+		(comment 1 "Mª Jesús Mateos")
+	)
+	(lib_symbols)
+)

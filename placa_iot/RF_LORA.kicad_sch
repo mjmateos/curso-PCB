@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6034887d-dd93-4691-9e0d-5442cfec90c8")
+	(paper "A4")
+	(title_block
+		(title "RF_LORA")
+		(comment 1 "Mª Jesús Mateos")
+	)
+	(lib_symbols)
+)
