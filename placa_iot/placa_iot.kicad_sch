@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6")
 	(paper "A3")
 	(title_block
@@ -22,11 +22,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7a202e4a-a4e4-4685-bb12-d3901865ac0e")
 		(property "Sheetname" "MCU"
 			(at 177.8 64.0584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,6 +38,8 @@
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
 			(at 177.8 216.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64,11 +68,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "88d15321-5050-48dd-9ab4-2a1f5a628627")
 		(property "Sheetname" "BATERIA"
 			(at 43.18 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78,6 +84,8 @@
 		)
 		(property "Sheetfile" "BATERIA.kicad_sch"
 			(at 43.18 217.7546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,11 +114,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "916c0938-0d3d-45c4-a866-4c96efac2fc5")
 		(property "Sheetname" "RF_LORA"
 			(at 252.73 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,6 +130,8 @@
 		)
 		(property "Sheetfile" "RF_LORA.kicad_sch"
 			(at 252.73 151.7146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148,11 +160,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "918d8c4d-e587-48bd-9dd3-a118c1bd5424")
 		(property "Sheetname" "ALIMENTACION"
 			(at 43.18 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -162,6 +176,8 @@
 		)
 		(property "Sheetfile" "alimentación.kicad_sch"
 			(at 43.18 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
