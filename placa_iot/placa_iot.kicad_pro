@@ -25,7 +25,9 @@
     "equivalence_files": []
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Resistencias"
+    ],
     "pinned_symbol_libs": [
       "New_Library",
       "resistor"
