@@ -102,7 +102,7 @@
 		)
 	)
 	(sheet
-		(at 252.73 85.09)
+		(at 245.11 63.5)
 		(size 118.11 66.04)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -118,7 +118,7 @@
 		)
 		(uuid "916c0938-0d3d-45c4-a866-4c96efac2fc5")
 		(property "Sheetname" "RF_LORA"
-			(at 252.73 84.3784 0)
+			(at 245.11 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -129,7 +129,7 @@
 			)
 		)
 		(property "Sheetfile" "RF_LORA.kicad_sch"
-			(at 252.73 151.7146 0)
+			(at 245.11 130.1246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -189,6 +189,52 @@
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 245.11 148.59)
+		(size 119.38 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c04c571e-1c91-4a45-bf86-90d84a6e0878")
+		(property "Sheetname" "USB"
+			(at 245.11 147.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 245.11 207.5946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "placa_iot"
+				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6"
+					(page "6")
 				)
 			)
 		)

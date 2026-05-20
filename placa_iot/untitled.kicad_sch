@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "9857250f-47c9-4eeb-8d71-209a023733aa")
+	(uuid "4a02c2ec-fb18-4843-9491-ac6bc6890faa")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:D_TVS"
@@ -2305,7 +2305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "690e1371-195b-4962-a10f-9320765ee5f9")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR062"
 			(at 111.76 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2365,7 +2365,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/c04c571e-1c91-4a45-bf86-90d84a6e0878"
-					(reference "#PWR059")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2547,7 +2547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b799d32-0bd6-4b10-9ecf-84da05fcb7ce")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 160.02 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2611,7 +2611,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/c04c571e-1c91-4a45-bf86-90d84a6e0878"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -2629,7 +2629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d92610f-3eb4-4264-918c-cd8bb3e9a26c")
-		(property "Reference" "R16"
+		(property "Reference" "R25"
 			(at 114.3 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2693,7 +2693,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/c04c571e-1c91-4a45-bf86-90d84a6e0878"
-					(reference "R16")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -2711,7 +2711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0a44b4-e798-4312-8d62-ba72cab75c34")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR064"
 			(at 162.56 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -2771,7 +2771,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/c04c571e-1c91-4a45-bf86-90d84a6e0878"
-					(reference "#PWR045")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2789,7 +2789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dd5263d-b480-4d62-8973-d29314a2d4ca")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 111.76 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2849,7 +2849,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/c04c571e-1c91-4a45-bf86-90d84a6e0878"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2952,7 +2952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa4ecea9-23a1-429b-8924-201f42ea1dee")
-		(property "Reference" "R27"
+		(property "Reference" "R24"
 			(at 74.676 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3014,7 +3014,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/c04c571e-1c91-4a45-bf86-90d84a6e0878"
-					(reference "R27")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3149,7 +3149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bed38d80-059c-47fc-b592-72ba1bf88622")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR065"
 			(at 175.26 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3209,7 +3209,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/c04c571e-1c91-4a45-bf86-90d84a6e0878"
-					(reference "#PWR062")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3227,7 +3227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e02e82da-5d24-43d7-9481-48448a7bb6fb")
-		(property "Reference" "R26"
+		(property "Reference" "R23"
 			(at 74.93 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3289,7 +3289,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/c04c571e-1c91-4a45-bf86-90d84a6e0878"
-					(reference "R26")
+					(reference "R23")
 					(unit 1)
 				)
 			)

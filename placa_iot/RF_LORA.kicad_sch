@@ -872,145 +872,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1689,7 +1550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0210cb0e-ece4-4f5d-9264-3ec7ae52339e")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 143.51 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1749,7 +1610,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/916c0938-0d3d-45c4-a866-4c96efac2fc5"
-					(reference "#PWR049")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -1767,7 +1628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18f45544-a4d4-4dd0-b1fd-fb064ca44cf6")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR048"
 			(at 144.78 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1827,7 +1688,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/916c0938-0d3d-45c4-a866-4c96efac2fc5"
-					(reference "#PWR050")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -1845,7 +1706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b304086-73bb-4df4-b61d-a7f2a708f876")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR050"
 			(at 177.8 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1905,7 +1766,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/916c0938-0d3d-45c4-a866-4c96efac2fc5"
-					(reference "#PWR052")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -1923,7 +1784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f10909d-c2ef-4f9e-96eb-539e086cb6af")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR046"
 			(at 95.25 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1983,7 +1844,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/916c0938-0d3d-45c4-a866-4c96efac2fc5"
-					(reference "#PWR048")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2161,7 +2022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67c94f0e-9c54-4bac-9ca2-b17b9ad4d66e")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR049"
 			(at 161.29 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2221,7 +2082,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/916c0938-0d3d-45c4-a866-4c96efac2fc5"
-					(reference "#PWR051")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2239,7 +2100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76ff811f-37a3-4f76-8bea-58cdcc3028da")
-		(property "Reference" "C26"
+		(property "Reference" "C24"
 			(at 165.1 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2303,7 +2164,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/916c0938-0d3d-45c4-a866-4c96efac2fc5"
-					(reference "C26")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2321,7 +2182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a34bd9e3-00a5-4ca4-8ddb-e99bffe17c25")
-		(property "Reference" "C24"
+		(property "Reference" "C22"
 			(at 148.59 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2385,7 +2246,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/916c0938-0d3d-45c4-a866-4c96efac2fc5"
-					(reference "C24")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -2483,7 +2344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa76993a-2a6b-4003-b3c6-155e2d979887")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR045"
 			(at 95.25 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2539,84 +2400,6 @@
 		)
 		(pin "1"
 			(uuid "7dd2b499-37b7-42ba-8dbc-db1af061c74b")
-		)
-		(instances
-			(project "placa_iot"
-				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/916c0938-0d3d-45c4-a866-4c96efac2fc5"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 74.93 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb4c6617-72ca-4919-81b6-1f841f6cbb9b")
-		(property "Reference" "#PWR045"
-			(at 74.93 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 74.93 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 74.93 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c0b5b2ae-747a-46cf-9009-377a2bb9c26a")
 		)
 		(instances
 			(project "placa_iot"
@@ -2933,7 +2716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef8662e2-98d0-4d40-92ae-e91320f8a1c6")
-		(property "Reference" "C25"
+		(property "Reference" "C23"
 			(at 153.67 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2995,7 +2778,7 @@
 		(instances
 			(project "placa_iot"
 				(path "/4b6f6f4f-6102-46a5-a2d7-92c3e7324bc6/916c0938-0d3d-45c4-a866-4c96efac2fc5"
-					(reference "C25")
+					(reference "C23")
 					(unit 1)
 				)
 			)
